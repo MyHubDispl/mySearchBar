@@ -1,0 +1,91 @@
+$input-height: 60px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ outline: #03fc2c auto 5px;
+ /* TODO */
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: linear-gradient(to bottom right, aqua, green);
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column;
+  min-height: 100vh;
+  width: 100%;
+  /* TODO */
+}
+
+input {
+  border-radius: 60px;
+  padding: 10px 20px;
+  
+ /* TODO */
+}
+
+.search-container {
+  /*width: 100%;
+  /*min-height: 50vh;*/
+  /* display: flex;
+  justify-content: center;
+  align-items: center; 
+  flex-direction: column; */
+  position: relative;
+ /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+
+  /* TODO */
+}
+.search-container input {
+  width: 250px;
+  background: rgb(255, 255, 255, .2);
+ /* TODO */
+}
+.search-container .suggestions {
+  cursor: pointer;
+  width: 100%;
+  position: absolute;
+  top: $input-height;
+   /* TODO */
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  max-height: 300px;
+  overflow-y: auto;
+  
+  /* TODO */
+}
+
+ul.has-suggestions {
+  
+  /* TODO */
+}
+ul li {
+  background: rgb(255, 255, 255, 0.2);
+  list-style: none;
+  width: 100%;
+  padding: 10px;
+  
+  /* TODO */
+}
+ul li:hover {
+  background-color: #03fc2c;
+  /* TODO */
+}
+
+input {
+  border-bottom: 2px solid #03fc2c;
+   /* TODO */
+}
